@@ -108,6 +108,7 @@ export default {
   },
   methods: {
     openInfoWindowTemplate (index) {
+      scrollTo(0, 0)
       let shop = this.shops[index]
       let item = this.markers[index]
       let num = index+1
