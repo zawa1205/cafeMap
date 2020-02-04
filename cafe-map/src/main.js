@@ -4,6 +4,18 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import firebase from 'firebase'
+import * as VueGoogleMaps from 'vue2-google-maps'
+import axios from 'axios'
+
+
+Vue.prototype.$axios = axios
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: process.env.VUE_APP_GOOGLE_MAPS_API_KEY,
+    libraries: 'places'
+  }
+})
 
 Vue.config.productionTip = false
 
