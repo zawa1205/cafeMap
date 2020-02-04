@@ -20,7 +20,7 @@ Vue.use(VueGoogleMaps, {
 Vue.config.productionTip = false
 
 var firebaseConfig = {
-  apiKey: "AIzaSyC_9JAOx8-eRswaTLkQtv1qkpoRA7xOllI",
+  apiKey: process.env.VUE_APP_GOOGLE_MAPS_API_KEY,
   authDomain: "cafemap-zawa.firebaseapp.com",
   databaseURL: "https://cafemap-zawa.firebaseio.com",
   projectId: "cafemap-zawa",
