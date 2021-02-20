@@ -1,6 +1,7 @@
 # cafeMap
 
 Webアプリは[こちら](https://cafemap-zawa.web.app)
+
 [追記]ぐるなびのAPIサービス終了に伴い、機能が使えなくなりました。
 
 (＊GPSを使うので有効にしてください)
